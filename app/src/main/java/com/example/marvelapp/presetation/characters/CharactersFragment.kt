@@ -42,7 +42,7 @@ class CharactersFragment : Fragment() {
     }
 
     private fun initCharacterAdapter(){
-        binding.recylcerCharacters.run {
+        binding.recyclerCharacters.run {
             setHasFixedSize(true)
             adapter = charactersAdapter
         }
